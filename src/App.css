@@ -34,3 +34,11 @@ section.content__container{
 .pop__onTop{
   z-index: 1001 !important;
 }
+
+.row {
+  width:100%;
+}
+
+.flip{
+  transform: rotate(180deg);
+}

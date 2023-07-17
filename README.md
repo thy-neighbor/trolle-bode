@@ -1,8 +1,9 @@
 # Trolle Fashion Ecommerce
+Note: Still in Progress
 
 Trolle is a ecommerce project that showcases the integration of user JWT authentication, dynamic product loading from a database, search & filtering techniques, a graphQL microservice implementation and a simple yet effective user interface to demonstrate the connection between the frontend and the robust backend.
 
-In order to showcase my frontend skiils the entire site is directly inspired by the Bode New York Website: ![BODE](https://bode.com/)
+In order to showcase my frontend skiils the entire site is directly inspired by the Bode New York Website: <a href="https://bode.com/"> BODE </a>
 
 ## Screenshots
 

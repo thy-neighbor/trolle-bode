@@ -53,3 +53,19 @@
     justify-content: center;
     display: flex;
 }
+
+.FilterModal__container{
+    position: absolute;
+    background-color: white;
+    border: 1px Solid black;
+    height: calc(100vh - 120px);
+    width: 364px;
+    top: 189px;
+    right: 85px;
+    font-size: 12px;
+}
+
+.FilterModal__button{
+    padding:25px;
+    border: 1px solid black;
+}

@@ -48,7 +48,6 @@ const Home = () => {
                             price="$540.00"
                             type={ClotheTypesEnum.TOP}
                         />
-                        {/* We can create spacers to make all the items look the same size in flexbox*/}
                     </div>
                 </div>
                 <div className="row mini__header-bottom">
