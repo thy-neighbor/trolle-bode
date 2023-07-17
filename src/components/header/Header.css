@@ -1,0 +1,88 @@
+.header{
+    height: 88px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 11;
+    padding: 0px 35px;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+.header__search{
+
+}
+
+.navigation__menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 25px;
+}
+
+li.nav__link {
+    display: inline;
+    font-size: 12px;
+    z-index: 99;
+}
+
+.header__logo{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+    letter-spacing: 3px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.header__right {
+    display: flex;
+    gap: 0px;
+}
+
+.menu__button{
+    width: 48px;
+    height: 48px;
+}
+
+.header__search{
+
+}
+
+.header__searchInput{
+    border-bottom: 1px solid #000000;
+    width: 227px;
+    height: 35px;
+    position: relative;
+    right: -31px;
+    transition: right 0.8s;
+}
+
+.input-slide{
+    right: 0px;
+}
+
+.menu__button{
+    position: relative;
+    z-index: 12;
+}
+
+.absolute__center{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.shoppingBag__count{
+    font-size: 9px;
+    z-index: 17;
+    width: 10px;
+    padding-top: 3px;
+}

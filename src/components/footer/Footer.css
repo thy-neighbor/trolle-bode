@@ -1,0 +1,49 @@
+footer{
+    font-size: .75rem;
+    line-height: 1.7em;
+    background-color: #FBFBFB;
+    padding: 35px 75px;
+    height: 275px;
+}
+
+.footer__menu{
+    display: flex;
+    gap: 100px;
+}
+
+@media screen and (max-width: 900px ) {
+    .footer__menu__container{
+        flex-direction: column-reverse;
+    }
+}
+
+.footer__menu__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cluster__link > a{
+    color:#737373;
+}
+
+.footer__country__button {
+    display: flex;
+    gap: 7px;
+    margin-left: 20px;
+}
+
+img#ge_flag {
+    width: 20px;
+}
+
+.footer__copyright-text {
+    position: absolute;
+    right: 75px;
+    padding: 1px;
+    color: #737373;
+    font-size: .4375rem;
+    left: unset;
+    letter-spacing: .1em;
+    line-height: 2.5em;
+    padding-top: 100px;
+}

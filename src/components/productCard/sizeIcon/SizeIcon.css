@@ -1,0 +1,24 @@
+.size__list {
+    display: flex;
+    z-index: 15;
+    position: relative;
+    top: -48px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0px 10px;
+    gap: 10px;
+}
+
+.size__box{
+    padding: 5px 10px;
+    border: solid rgb(26, 26, 26) 1px;
+    color: rgb(26, 26, 26);
+    font-size: 14px;
+    cursor: default;
+}
+
+.size__box:hover{
+    border: solid rgb(174, 173, 173) 1px;
+    color: rgb(87, 87, 87);
+}

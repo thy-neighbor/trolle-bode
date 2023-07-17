@@ -1,0 +1,55 @@
+.SecondaryMenuModal{
+    position: fixed;
+    background-color: white;
+    border-right: 1px Solid black;
+    height: 100%;
+    width: 30%;
+    top: 0;
+    left: 0;
+    max-width: 375px;
+    font-size: 12px;
+}
+
+.SecondaryMenuModal__list{
+    margin-top: 88px;
+    padding-right:30px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    align-items: flex-end;
+    font-weight: 600;
+}
+
+.ShoppingBagModal{
+    position: fixed;
+    background-color: white;
+    border-left: 1px Solid black;
+    height: 100%;
+    width: 30%;
+    top: 0;
+    right: 0;
+    max-width: 375px;
+    font-size: 12px;
+    /*content positioning*/
+    display: flex;
+    flex-direction: column;
+}
+
+.ShoppingBagModal__header{
+    border-bottom: 1px solid black;
+}
+
+.ShoppingBagModal__header-btn{
+    position: absolute;
+    top: 20px;
+    right: 24px;
+    height: 52px;
+    width: 52px;
+}
+
+.ShoppingBagModal__header, .ShoppingBagModal__bagItems{
+    padding: 40px 0px;
+    margin: 0px 40px;
+    justify-content: center;
+    display: flex;
+}
