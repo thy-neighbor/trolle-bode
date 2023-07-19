@@ -26,7 +26,7 @@ const Home = () => {
                     </div>
                     <div className="product__container">
                         <ProductCard 
-                            image='./burgundy_penny_loafers.png' 
+                            image='./burgundy-shoes/burgundy_penny_loafers.png' 
                             desc="Wander Penny Loafers - Burgundy"
                             meta="Burgundy Penny Loafers Men Product Image"
                             price="$365.00"

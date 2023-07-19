@@ -3,7 +3,7 @@ import {ClotheTypesEnum} from '../../../models/ClotheTypesEnum';
 import { sizeIcon } from './sizeIconType';
 import './SizeIcon.css';
 
-const topSizeLegend : sizeIcon[] = [
+export const topSizeLegend : sizeIcon[] = [
     {size: "XS/S", inStock: true},
     {size: "S/M", inStock: true},
     {size: "M/L", inStock: true},
@@ -25,16 +25,16 @@ function populateNumericSizeLegend(start:number, end:number, increment:number = 
     return arr;
 }
 
-const bottomSizeLegend : sizeIcon[] = populateNumericSizeLegend(25,40);
-const menShoeSizeLegend : sizeIcon[] = populateNumericSizeLegend(8,13);
-const womenShoeSizeLegend : sizeIcon[] = populateNumericSizeLegend(6,11);
-const dressSizeLegend : sizeIcon[] = populateNumericSizeLegend(0, 12 , 2);
+export const bottomSizeLegend : sizeIcon[] = populateNumericSizeLegend(25,40);
+export const menShoeSizeLegend : sizeIcon[] = populateNumericSizeLegend(8,13);
+export const womenShoeSizeLegend : sizeIcon[] = populateNumericSizeLegend(6,11);
+export const dressSizeLegend : sizeIcon[] = populateNumericSizeLegend(0, 12 , 2);
 
-const oneSize : sizeIcon[] = [
+export const oneSize : sizeIcon[] = [
     {size: "OS", inStock: true},
 ];
 
-function produceSizeLegend(type : ClotheTypesEnum) : sizeIcon[]{
+export function produceSizeLegend(type : ClotheTypesEnum) : sizeIcon[]{
 
     switch(type) {
         case(ClotheTypesEnum.TOP) : 
