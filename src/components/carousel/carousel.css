@@ -1,0 +1,40 @@
+.slide-container{
+    height: 700px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.slide{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slider-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width:100%
+}
+
+.stepper-wrapper {
+    display: block;
+    float: right;
+    position: sticky;
+    transform: rotate(90deg);
+    margin-left: 20px;
+    top: 130px;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation0.MuiMobileStepper-root.MuiMobileStepper-positionStatic.css-11syc77-MuiPaper-root-MuiMobileStepper-root {
+    background-color: transparent;
+}
+
+.MuiMobileStepper-dot.css-114p2tk-MuiMobileStepper-dot {
+    border: 0.5px solid rgba(0, 0, 0, 0.50);
+    background-color: transparent;
+}
+
+.MuiMobileStepper-dot.MuiMobileStepper-dotActive.css-26w9jf-MuiMobileStepper-dot {
+    background-color: #707070;
+}

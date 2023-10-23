@@ -1,5 +1,11 @@
 .select{
+    border: none !important;
     width:100%;
-    height: 38px;
+    height: fill;
+}
+
+.Dropdown__container{
+    width: 100%;
+    padding: 0px !important;
 }
 

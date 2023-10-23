@@ -8,6 +8,7 @@ import Navbar from "../../header/Header";
 import { bottomSizeLegend } from '../../productCard/sizeIcon/SizeIcons';
 import { sizeIcon } from '../../productCard/sizeIcon/sizeIconType';
 import DropdownInput from './DropdownInput';
+import Carousel from '../../carousel/Carousel';
 
 type Props = {
     match? : String
@@ -45,7 +46,7 @@ const data = {
     color : ["Blue", "Red"] ,
     sizes : bottomSizeLegend,
     url : "/",
-    images : ['./burgundy-shoes/burgundy_penny_loafers.png', './burgundy-shoes/single_side_profile_burgubdy_penny_loafers.png', './side_profile_burgundy_penny_loafers.png', './burgundy-shoes/back_profile_burgundy_penny_loafers.png']
+    images : ['/burgundy-shoes/burgundy_penny_loafers.png', '/burgundy-shoes/single_side_profile_burgubdy_penny_loafers.png', '/burgundy-shoes/side_profile_burgundy_penny_loafers.png', '/burgundy-shoes/back_profile_burgundy_penny_loafers.png']
 }
 
 function Product({}: Props) {
@@ -75,7 +76,7 @@ function Product({}: Props) {
                             </div>
                         </div>
                         <div className="Product__images-container">
-                            {/**Imagesss */}
+                            <Carousel images={data.images}/>
                         </div>
                         <div className="Product__options-container">
                             <div className="Product__options-content">
@@ -87,8 +88,12 @@ function Product({}: Props) {
                             </div>
                         </div>
                     </div>
-                    <div className="row mini__header-bottom">
-                        <div className="product__container">
+                    <div className="row">
+                        <div className='mini__header-bottom'>
+                            You may also like
+                        </div>
+                        
+                        <div className="product__container product__suggestions">
                             <ProductCard 
                                 image='./burgundy-shoes/burgundy_penny_loafers.png' 
                                 desc="Wander Penny Loafers - Burgundy"
@@ -111,6 +116,14 @@ function Product({}: Props) {
                                 meta="Men's Cream Summer Blazer Product Image"
                                 price="$540.00"
                                 type={ClotheTypesEnum.TOP}
+                            />
+
+                            <ProductCard 
+                                image='./burgundy-shoes/burgundy_penny_loafers.png' 
+                                desc="Wander Penny Loafers - Burgundy"
+                                meta="Burgundy Penny Loafers Men Product Image"
+                                price="$365.00"
+                                type={ClotheTypesEnum.MEN_SHOE}
                             />
                         </div>
                     </div>

@@ -1,0 +1,3 @@
+- create functionality so each image has order(this can be done by filename or another property). Combine it with the isMain button 
+- metadata functionality
+    - cant add alt text to metadata. Alt text is primarily a web concept
